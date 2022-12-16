@@ -1,0 +1,42 @@
+body{
+    padding-top: 10vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #11a5df2b;
+    width: 75vw;
+    padding: 15px;
+}
+.container h2{
+    color: gray;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.container input{
+    margin: 5px 15px;
+    height: 25px;
+
+    
+}
+.container textarea{
+    height: 150px;
+    margin: 5px 15px;
+
+}
+.container button{
+    margin: 5px 15px;
+    width: 80px;
+    background:  #0069f7;
+    padding: 3px 10px;
+    border: 0;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+}

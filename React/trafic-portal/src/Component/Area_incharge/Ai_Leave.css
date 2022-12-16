@@ -1,0 +1,28 @@
+.heading{
+    background-color: #4895a0;
+    text-align: center;
+}
+#trafficpoint{
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+
+}
+
+#trafficpoint td, #customers th {
+padding: 8px;
+align-items: center;
+text-align: center;
+}
+
+#trafficpoint tr:nth-child(even){background-color: #f2f2f2;}
+
+#trafficpoint tr:hover {background-color: #ddd;}
+
+#trafficpoint th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: #4895a0;
+color: white;
+}

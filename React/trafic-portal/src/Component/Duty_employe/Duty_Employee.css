@@ -1,0 +1,60 @@
+.container-parent{
+    display:grid;
+    height: 130vh;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    background-color: rgb(240, 240, 240);
+}
+.child-container-1{
+    background-color:rgb(255, 255, 255);
+    margin: 10px;
+    color: rgb(53, 93, 204);
+
+    
+}
+.child-container-2{
+  background-color:rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+
+}
+.child-container-3{
+  background-color:rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+}
+.child-container-4{
+  background-color:rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 16px;
+    
+
+
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  .piechart{
+    width: 500px;
+    height: 500px;
+  }

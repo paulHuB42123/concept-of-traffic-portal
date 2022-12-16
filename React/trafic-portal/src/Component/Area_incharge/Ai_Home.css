@@ -1,0 +1,59 @@
+.container-parent{
+    display:grid;
+    height: 130vh;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    background-color: rgb(240, 240, 240);
+}
+.child-container-1{
+    background-color:rgb(255, 255, 255);
+    margin: 10px;
+    color: rgb(66, 68, 72);
+
+    
+}
+.child-container-2{
+  background-color:rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+
+}
+.child-container-3{
+  background-color:rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+}
+.child-container-4{
+  background-color:rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+}
+
+#trafficpoint{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+  }
+  
+  #trafficpoint td, #customers th {
+  padding: 8px;
+  align-items: center;
+  text-align: center;
+  }
+  
+  #trafficpoint tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #trafficpoint tr:hover {background-color: #ddd;}
+  
+  #trafficpoint th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4895a0;
+  color: white;
+  }
+  .piechart{
+    width: 500px;
+    height: 500px;
+  }
